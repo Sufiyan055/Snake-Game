@@ -9,16 +9,16 @@ body {
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: #e3f2fd;
+  background: #2ab855;
 }
 .wrapper {
-  width: 65vmin;
-  height: 70vmin;
+  width: 70vmin;
+  height: 80vmin;
   border-radius: 5px;
   display: flex;
   overflow: hidden;
   flex-direction: column;
-  background: #293447;
+  background: #0b3f2e;
 }
 .game-details {
   color: #b8c6dc;
@@ -33,15 +33,18 @@ body {
   height: 100%;
   display: grid;
   grid-template: repeat(30, 1fr) / repeat(30, 1fr);
-  background: #212837;
+  background: #09df5b;
+  border: 1px solid;
 }
 .play-board .food {
-  background: #ff003d;
+  background: brown;
   border-radius: 50%;
 }
 .play-board .head {
-  background: #60cbff;
+  background: #f2801c;
+  border: 1px solid #000;
 }
+
 .controls {
   display: none;
   justify-content: space-between;
@@ -57,13 +60,14 @@ body {
 }
 .resetPage {
   position: absolute;
-  bottom: 65px;
+  top: 30px;
   padding: 5px 10px;
   background-color: rebeccapurple;
   color: #fff;
   border: 1px solid #000;
   border-radius: 2px;
 }
+
 @media screen and (max-width: 800px) {
   .wrapper {
     width: 90vmin;
